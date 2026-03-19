@@ -1,117 +1,41 @@
-🧾 Superstore Sales Dashboard (Excel)
-📌 Project Overview
+superstore-sales-dashboard-excel
+1. Project Title
 
-This project presents an interactive sales dashboard built using Microsoft Excel on the Superstore dataset. The dashboard provides a comprehensive view of sales, profit, customer segments, and regional performance to support data-driven business decisions.
+Superstore Sales Dashboard (Excel)
 
-🎯 Business Problem
+2. Objective
 
-Retail businesses often struggle to:
+Analyze Superstore sales data to identify trends across products, regions, and time periods, and visualize performance using Excel dashboards.
 
-Monitor sales and profit across multiple dimensions
+3. Tools & Technologies
 
-Identify high-performing products and regions
+Excel (Pivot Tables, Charts, Dashboard)
 
-Understand customer segments and purchasing behavior
+Python (optional for preprocessing)
 
-Track trends and seasonality in sales
+4. Key Analysis / Output
 
-This project addresses these challenges by transforming raw data into an interactive and centralized dashboard.
+Created interactive Excel dashboards summarizing sales by category, region, and month. Highlighted top-performing products, regions, and seasonal trends.
 
-🧰 Tools & Technologies
+5. Key Insights
 
-Microsoft Excel
+Office supplies and technology categories drive the highest revenue.
 
-Pivot Tables
+Sales peak during November and December due to seasonal trends.
 
-Pivot Charts
+Certain regions underperform, indicating opportunities for marketing or promotions.
 
-Slicers
+6. Dashboard / Visuals
 
-Conditional Formatting
+(Add screenshots here)
 
-Data Cleaning & Transformation
+<img width="637" height="362" alt="image" src="https://github.com/user-attachments/assets/7f684a5a-ff5d-4fee-9efe-522bac0c07a5" />
 
-🔄 Methodology
-Data Cleaning
+<img width="602" height="362" alt="image" src="https://github.com/user-attachments/assets/2387096e-639a-4161-84fd-4324e2dd805b" />
 
-Removed duplicates and handled missing values
+<img width="597" height="368" alt="image" src="https://github.com/user-attachments/assets/1af6aefe-e29b-4848-aa0f-a335d51f8f12" />
 
-Standardized formats and ensured data consistency
-
-Data Transformation
-
-Extracted time-based features (Year, Month)
-
-Created KPIs (Sales, Profit, Orders, Quantity)
-
-Data Analysis
-
-Analyzed sales by region, category, and segment
-
-Evaluated profitability across products
-
-Identified customer behavior patterns
-
-Dashboard Development
-
-Built interactive pivot tables and charts
-
-Added slicers for dynamic filtering (Region, Category, Segment)
-
-Designed a user-friendly layout for easy navigation
-
-Interactive dashboards using Excel combine pivot tables, charts, and slicers to enable dynamic business analysis and decision-making
-
-📊 Key Metrics (KPIs)
-
-Total Sales
-
-Total Profit
-
-Total Orders
-
-Quantity Sold
-
-Profit Margin
-
-📊 Key Insights
-
-Technology category generates the highest sales and profit
-
-Certain regions consistently outperform others in revenue generation
-
-Consumer segment contributes the largest share of sales
-
-Sales show strong seasonal patterns with peak periods toward year-end
-
-Some high-sales products have low profitability, indicating margin issues
-
-Superstore dashboards typically reveal regional performance gaps, category profitability, and seasonal sales patterns
-
-💡 Business Recommendations
-
-Focus on high-performing categories like Technology to maximize revenue
-
-Improve profitability in low-margin product segments
-
-Target high-value customer segments with personalized marketing
-
-Strengthen strategies in underperforming regions
-
-Prepare inventory and campaigns for peak seasonal demand
-
-📁 Project Structure
-superstore-sales-dashboard-excel/
-│── data/
-│── dashboard.xlsx
-│── visuals/
-│── README.md
-🚀 Future Improvements
-
-Add Power Query for automated data updates
-
-Integrate with Power BI for advanced analytics
-
-Include forecasting for sales and profit trends
-
-Add customer segmentation analysis
+7. Project Structure
+/data       → Raw & cleaned datasets  
+/dashboard  → Excel dashboard files  
+/images     → Screenshots of dashboards  
